@@ -4,18 +4,16 @@ body {
 }
 .logo {
   font-family: "Raleway", sans-serif;
-  display: flex;
-  align-items: center;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
   width: 115px;
   height: 24px;
-  font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.accent {
+  color: #4d5ae5;
 }
 .site-nav {
   display: flex;
@@ -37,7 +35,6 @@ ul {
   color: #434455;
 }
 h1 {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
@@ -45,8 +42,6 @@ h1 {
   color: #fff;
 }
 .hero-section {
-  width: 1440px;
-  height: 600px;
   background: #2e2f42;
 }
 .hero-button {
