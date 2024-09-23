@@ -19,6 +19,17 @@ body {
   line-height: 1.5;
   color: #2e2f42;
 }
+.menu-item:hover,
+.addres-info a:hover {
+  color: #404bbf;
+}
+.hero-button:hover {
+  background-color: #404bbf;
+}
+.menu-item:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
 ul {
   list-style-type: none;
 }
