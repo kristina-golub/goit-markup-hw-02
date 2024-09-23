@@ -145,6 +145,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-card {
   background: #fff;
@@ -155,7 +156,6 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-transform: capitalize;
 }
 .portfolio-descr {
   font-weight: 400;
