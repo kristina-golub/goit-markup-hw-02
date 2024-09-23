@@ -32,11 +32,17 @@ body {
   color: #404bbf;
   text-decoration: underline;
 }
+.menu-item:focus {
+  color: #404bbf;
+}
 nav ul {
   list-style-type: none;
 }
 address ul {
   list-style-type: none;
+}
+address {
+  font-style: normal;
 }
 .address-info {
   font-weight: 400;
@@ -48,6 +54,9 @@ address ul {
   text-decoration: none;
 }
 .address-info:hover {
+  color: #404bbf;
+}
+.address-info:focus {
   color: #404bbf;
 }
 /* hero section */
@@ -73,6 +82,9 @@ address ul {
 }
 .hero-button:hover {
   background: #404bbf;
+}
+.hero-button:focus {
+  background-color: #404bbf;
 }
 /* section 2 no name */
 .no-bullets {
@@ -100,10 +112,11 @@ address ul {
 .header-our-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .employee-name {
   font-weight: 500;
@@ -128,7 +141,7 @@ address ul {
 .header-our-portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -142,6 +155,7 @@ address ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-descr {
   font-weight: 400;
